@@ -1,24 +1,17 @@
 //location.href = 'maintenance.html'
 
-// what does the fox say?
-function say() {
-    var sound = document.getElementById("sound");
-    sound.play();
-}
-
-
-
 function goToSg() {
     location.href = 'sg.html';
 }
 
 function playsg() {
+    // outdated, but ill fix it later
     location = "https://cristizama.github.io/sdwa/";
 }
 
 function twitter() {
     alert("marș la carne!")
-    //location = "https://twitter.com/CrisDEVV";
+    //location = "https://twitter.com/************";
 }
 
 function youtube() {
@@ -28,12 +21,8 @@ function youtube() {
 function getVal() {
     var inputVal = document.getElementById('fn').value;
     
-    if(inputVal == "imafucking")
-    {   
+    if(inputVal == "aw123021aw")
+    {
         location.href = 'main.html';
     }
-}
-
-function goToBlog() {
-    location.href = 'blog.html';
 }
