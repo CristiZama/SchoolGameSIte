@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(198, 198, 198);
+}
+
+.title {
+    font-family: Arial;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.003cm;
+    position: absolute;
+    transform: scale(2);
+    top: 7%;
+    left: 43%;
+}
+
+.as {
+    font-family: Arial;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.003cm;
+    position: absolute;
+    transform: scale(1.5);
+    top: 22%;
+    left: 2%;
+}
